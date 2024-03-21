@@ -1,3 +1,6 @@
+# **Blogged**
+https://grafana.com/blog/2021/02/11/instrumenting-a-.net-web-api-using-opentelemetry-tempo-and-grafana-cloud/
+
 # **Introduction**
 
 This repository contains a practical example about how to use OpenTelemetry to add custom metrics to a .NET app, and how to visualize those metrics using Prometheus and Grafana.
