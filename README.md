@@ -151,11 +151,11 @@ The  ``OpenTelemetry.Instrumentation.Process`` package the following metrics of 
 The app uses the following package versions:
 
 ```xml
-<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.6.0-beta.3" />
-<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.7.0-alpha.1" />
-<PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.5.1" />
-<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.7.0-alpha.1" />
-<PackageReference Include="OpenTelemetry.Instrumentation.Process" Version="0.5.0-beta.3" />
+<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.8.1" />
+<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.8.0" />
+<PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.8.0" />
+<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.8.0" />
+<PackageReference Include="OpenTelemetry.Instrumentation.Process" Version="0.5.0-beta.5" />
 ```
 
 # **External Dependencies**
@@ -231,6 +231,11 @@ If you want to play around with them on your own, the link to download them is a
 ![aspnet-core-metrics-dashboard](https://raw.githubusercontent.com/karlospn/opentelemetry-metrics-demo/main/docs/aspnet-core-metrics-dashboard.png)
 
 # **Changelog**
+
+### **04/14/2024**
+- Update ``OpenTelemetry`` packages to remove known security vulnerabilities.
+- Remove the ``AutoMapper.Extensions.Microsoft.DependencyInjection`` package because it has been deprecated. And instead install ``AutoMapper 13.0.0``.
+- Update ``EntityFramework`` packages to the latest stable version.
 
 ### **11/29/2023**
 - Update application to .NET 8.
