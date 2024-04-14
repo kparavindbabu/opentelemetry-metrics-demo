@@ -1,4 +1,3 @@
-using BookStore.Infrastructure.Metrics;
 using BookStore.WebApi.Middleware;
 using Microsoft.OpenApi.Models;
 using OpenTelemetry.Metrics;
